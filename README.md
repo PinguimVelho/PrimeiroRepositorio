@@ -1,12 +1,51 @@
-# Garatujas Francisco - IA25
+# Garatujas Francisco - IA25  
 
-## [HTML] 
-HTML é uma linguagem de marcação, ou seja, serve como um rabisco para decidir onde as coisas vão estar e a ordem que aquilo será lido
+## [HTML]  
+HTML é o rascunho de tudo.  
+Uma linguagem de marcação que organiza a estrutura da página, como se fosse o esqueleto de uma ideia.  
+Ele define onde cada coisa vai ficar e em que ordem será lida — títulos, textos, imagens… tudo começa aqui.  
 
+---
 
-## [Java Script]
+## [CSS]  
+CSS é a parte estética.  
+Ele não cria conteúdo, mas transforma completamente a aparência: cores, tamanhos, espaçamentos, alinhamento…  
+Se o HTML é estrutura, o CSS é estilo.  
 
-* classe - Molde da coisa
-* objeto - O objeto pertencente a classe e moldado por ela
-* variable X atributo
-* function X metod
+---
+
+## [JavaScript]  
+JavaScript é o que dá vida à página.  
+É ele que permite interações, animações e respostas às ações do usuário.  
+
+Alguns conceitos importantes:  
+- **classe** → um molde do que algo será  
+- **objeto** → uma instância criada a partir desse molde  
+- **variável X atributo** → variável guarda um valor; atributo pertence a um objeto  
+- **função X método** → função é independente; método está dentro de um objeto  
+
+---
+
+## [TypeScript]  
+TypeScript é uma versão mais organizada do JavaScript.  
+Ele adiciona tipagem, ou seja, você define o tipo dos dados (número, texto, etc.), o que ajuda a evitar erros.  
+
+No final, todo código TypeScript é convertido para JavaScript — só que com mais segurança durante o desenvolvimento.  
+
+---
+
+## [JavaScript X TypeScript X Java]  
+
+- **JavaScript** → linguagem dinâmica, muito usada na web  
+- **TypeScript** → JavaScript com tipagem e mais controle  
+- **Java** → uma linguagem totalmente diferente, usada em outras áreas como back-end e aplicativos  
+
+> Apesar do nome parecido, Java não tem relação com JavaScript ou TypeScript.  
+
+---
+
+###  Resumo  
+- HTML - liguagem de marcação pra construir a estrutura e ordem de leitura  
+- CSS - deixa bonitinho
+- JavaScript - liguagem de programação
+- TypeScript - js só que mais organizado :D
