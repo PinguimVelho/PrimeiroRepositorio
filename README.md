@@ -1,18 +1,17 @@
 # Garatujas Francisco - IA25  
+---
 
 ## [HTML]  
 HTML é o rascunho da coisa toda.  
   É uma linguagem de marcação que **marca** e organiza a estrutura da página, como se fosse um esqueleto com os dados de texto mais básicos.  
   Ele define onde cada coisa vai ficar e em que ordem será lida — títulos, textos, imagens… tudo começa aqui.  
 
----
 
 ## [CSS]  
 CSS é a parte estética.  
 Ele não cria conteúdo, mas transforma completamente a aparência: cores, tamanhos, espaçamentos, alinhamento…  
 Se o HTML é estrutura, o CSS é estilo.  
 
----
 
 ## [JavaScript]  
 JavaScript é o que dá vida à página.  
@@ -24,7 +23,6 @@ Alguns conceitos importantes:
 - **variável X atributo** → variável guarda um valor; atributo pertence a um objeto  
 - **função X método** → função é independente; método está dentro de um objeto  
 
----
 
 ## [TypeScript]  
 TypeScript é uma versão mais organizada do JavaScript.  
@@ -32,7 +30,6 @@ Ele adiciona tipagem, ou seja, você define o tipo dos dados (número, texto, et
 
 No final, todo código TypeScript é convertido para JavaScript — só que com mais segurança durante o desenvolvimento.  
 
----
 
 ## [JavaScript X TypeScript X Java]  
 
@@ -42,7 +39,6 @@ No final, todo código TypeScript é convertido para JavaScript — só que com 
 
 > Apesar do nome parecido, Java não tem relação com JavaScript ou TypeScript.  
 
----
 
 ###  Resumo  
 - HTML - liguagem de marcação pra construir a estrutura e ordem de leitura  
