@@ -5,165 +5,128 @@
 ## [HTML]
 
 HTML é o rascunho da coisa toda.
-É uma linguagem de marcação que **organiza o conteúdo da página**, como se fosse o esqueleto de um corpo.
+É uma linguagem de marcação que organiza o conteúdo da página, como se fosse o esqueleto de um corpo.
 
-Ele define onde cada coisa vai ficar e a ordem que tudo será lido — títulos, textos, imagens, listas…
+Ele define onde cada coisa vai ficar e a ordem que tudo será lido — títulos, textos, imagens, listas… Sem HTML, basicamente não existe página, só um monte de nada.
 
-### Pra entender fácil:
+Pra visualizar melhor, pensa que o HTML monta a estrutura de uma casa: ele coloca as paredes, portas e janelas. Ainda não é bonito, mas já dá pra entender o espaço.
 
-Pensa no HTML como a estrutura de uma casa:
+Algumas ideias importantes:
 
-* paredes (estrutura)
-* portas
-* janelas
-
-Sem isso, não existe nada pra decorar depois.
-
-### Pontos importantes:
-
-* Usa **tags** (tipo caixinhas) → `<p>`, `<h1>`, `<img>`
-* Cada tag tem uma função (texto, título, imagem…)
-* Existe uma estrutura básica que toda página segue
+* Ele usa **tags** (tipo `<p>`, `<h1>`, `<img>`) pra marcar o que cada coisa é
+* Cada tag tem um significado (título, parágrafo, imagem…)
+* Existe uma estrutura base que toda página segue
+* Tags mais “certas” (semânticas) ajudam até o Google a entender o site
 
 ---
 
 ## [CSS]
 
 CSS é a parte estética.
-Ele não cria conteúdo, só deixa tudo bonito.
+Ele não cria conteúdo, só pega o que o HTML já montou e deixa visualmente agradável.
 
-É ele que define:
+Se o HTML é a casa pronta, o CSS é a pintura, os móveis e a decoração. É ele que define cores, tamanhos, espaçamentos e até onde cada coisa fica na tela.
 
-* cores
-* tamanhos
-* espaçamento
-* posição das coisas na tela
+Além de deixar bonito, o CSS também ajuda muito na organização visual. Hoje em dia, ele é essencial pra fazer sites funcionarem bem em celular, tablet e computador.
 
-### Pra entender fácil:
+Alguns pontos importantes:
 
-Se o HTML é a casa, o CSS é:
-
-* a pintura
-* os móveis
-* a decoração
-
-### Pontos importantes:
-
-* Você pode mexer em vários elementos ao mesmo tempo
-* Dá pra deixar o site bonito em celular também (**responsivo**)
-* Dois jeitos importantes de organizar layout:
-
-  * **Flexbox** (mais simples)
-  * **Grid** (mais completo)
+* Você pode estilizar vários elementos de uma vez
+* Dá pra criar layouts modernos com **Flexbox** e **Grid**
+* Responsividade é fundamental (site que funciona em qualquer tela)
 
 ---
 
 ## [JavaScript]
 
 JavaScript é o que dá vida à página.
+Sem ele, o site é parado. Com ele, o site reage ao que o usuário faz.
 
-Sem ele, o site é parado.
-Com ele, o site reage ao usuário.
+Por exemplo: quando você clica em um botão e algo acontece, quando um formulário avisa que está errado, ou quando uma página atualiza sem recarregar — tudo isso geralmente envolve JavaScript.
 
-### O que ele faz na prática:
+Se for comparar:
 
-* Detecta clique em botão
-* Mostra/esconde coisas
-* Valida formulário
-* Atualiza conteúdo sem recarregar a página
+* HTML → corpo
+* CSS → aparência
+* JavaScript → cérebro
 
-### Pra entender fácil:
+Ele funciona lidando com ações (eventos) e manipulando o que está na tela.
 
-Se HTML é o corpo e CSS é a roupa,
-o JavaScript é o cérebro 🧠
+Algumas ideias importantes:
 
-### Alguns conceitos importantes (simplificados):
-
-* **variável** → uma “caixinha” que guarda um valor
+* **variável** → uma caixinha que guarda um valor
 * **função** → um bloco de código que executa uma tarefa
-* **objeto** → um conjunto de informações + ações
+* **objeto** → um conjunto de dados e comportamentos
 * **classe** → um molde pra criar objetos
 
-### Conceitos que você vai ver bastante:
+Também vale conhecer:
 
-* **Evento** → algo que acontece (ex: clique)
-* **DOM** → a forma como o JavaScript enxerga o HTML
-* **Assíncrono** → coisas que demoram (tipo buscar dados da internet)
+* **DOM** → é como o JavaScript “enxerga” o HTML
+* **Eventos** → coisas que acontecem (clique, digitação…)
+* **Assíncrono** → quando algo demora (tipo buscar dados da internet)
 
 ---
 
 ## [TypeScript]
 
-TypeScript é tipo um “JavaScript com regras”.
+TypeScript é como se fosse um “JavaScript mais organizado”.
 
-Ele ajuda a evitar erros porque você precisa dizer que tipo de dado está usando.
+Ele adiciona regras ao código, principalmente dizendo qual tipo de dado você está usando (texto, número, etc.). Isso ajuda a evitar erros antes mesmo do código rodar.
 
-### Exemplo simples:
+No fim das contas, o TypeScript vira JavaScript, mas durante o desenvolvimento ele ajuda bastante a manter tudo sob controle — principalmente em projetos maiores.
+
+Um exemplo simples:
 
 ```ts
+let nome: string = "Francisco";
 let idade: number = 25;
 ```
 
-### Pra entender fácil:
-
-É como se fosse:
+Resumo da ideia:
 
 * JavaScript → mais livre
-* TypeScript → mais organizado
-
-Muito usado em projetos grandes pra não virar bagunça.
+* TypeScript → mais seguro e organizado
 
 ---
 
 ## [JavaScript X TypeScript X Java]
 
-* **JavaScript** → usado em sites
-* **TypeScript** → JavaScript mais organizado
-* **Java** → outra linguagem, usada em sistemas e apps
+Apesar dos nomes parecidos, essas coisas não são iguais.
 
-> Apesar do nome parecido, Java é outra coisa totalmente diferente.
+JavaScript e TypeScript são usados principalmente na web. Já Java é outra linguagem, usada em sistemas maiores, back-end e aplicativos.
+
+Ou seja:
+
+* JavaScript → web
+* TypeScript → JavaScript melhorado
+* Java → outra parada
 
 ---
 
 ## [Front-end X Back-end]
 
-### Front-end:
+Quando você acessa um site, existem duas partes principais trabalhando juntas.
 
-É o que o usuário vê.
-Tudo que aparece na tela.
+O **front-end** é tudo que você vê: layout, cores, botões, textos. É feito com HTML, CSS e JavaScript.
 
-Usa:
-
-* HTML
-* CSS
-* JavaScript
-
-### Back-end:
-
-É o que acontece por trás.
-Cuida de:
-
-* dados
-* login
-* banco de dados
+Já o **back-end** é o que acontece por trás: salvar dados, login, banco de dados, regras do sistema. O usuário não vê, mas sem isso o site não funciona de verdade.
 
 ---
 
 ## [Boas práticas básicas]
 
-* Indentar o código (deixar organizado visualmente)
-* Dar nomes claros pras coisas
-* Separar HTML, CSS e JS
-* Não complicar sem necessidade
-* Testar sempre
+No começo pode parecer besteira, mas isso faz muita diferença:
+
+* Manter o código organizado (indentação)
+* Usar nomes claros pras coisas
+* Separar HTML, CSS e JavaScript
+* Evitar complicar sem necessidade
+* Testar sempre o que você faz
 
 ---
 
 ## Resumo (bem direto)
 
-* **HTML** → estrutura (o esqueleto)
-* **CSS** → aparência (a beleza)
-* **JavaScript** → comportamento (a inteligência)
-* **TypeScript** → JavaScript mais organizado
+HTML monta a estrutura, CSS deixa bonito, JavaScript faz funcionar, e TypeScript ajuda a não virar bagunça.
 
-👉 Juntos, eles formam a base de praticamente todo site que existe hoje.
+👉 Juntando tudo isso, você tem a base de praticamente qualquer site moderno.
