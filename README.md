@@ -67,6 +67,20 @@ Também vale conhecer:
 
 ---
 
+## [JavaScript X TypeScript X Java]
+
+Apesar dos nomes parecidos, essas coisas não são iguais.
+
+JavaScript e TypeScript são usados principalmente na web. Já Java é outra linguagem, usada em sistemas maiores, back-end e aplicativos.
+
+Ou seja:
+
+* JavaScript → web
+* TypeScript → JavaScript melhorado
+* Java → outra parada
+
+---
+
 ## [TypeScript]
 
 TypeScript é como se fosse um “JavaScript mais organizado”.
@@ -88,45 +102,3 @@ Resumo da ideia:
 * TypeScript → mais seguro e organizado
 
 ---
-
-## [JavaScript X TypeScript X Java]
-
-Apesar dos nomes parecidos, essas coisas não são iguais.
-
-JavaScript e TypeScript são usados principalmente na web. Já Java é outra linguagem, usada em sistemas maiores, back-end e aplicativos.
-
-Ou seja:
-
-* JavaScript → web
-* TypeScript → JavaScript melhorado
-* Java → outra parada
-
----
-
-## [Front-end X Back-end]
-
-Quando você acessa um site, existem duas partes principais trabalhando juntas.
-
-O **front-end** é tudo que você vê: layout, cores, botões, textos. É feito com HTML, CSS e JavaScript.
-
-Já o **back-end** é o que acontece por trás: salvar dados, login, banco de dados, regras do sistema. O usuário não vê, mas sem isso o site não funciona de verdade.
-
----
-
-## [Boas práticas básicas]
-
-No começo pode parecer besteira, mas isso faz muita diferença:
-
-* Manter o código organizado (indentação)
-* Usar nomes claros pras coisas
-* Separar HTML, CSS e JavaScript
-* Evitar complicar sem necessidade
-* Testar sempre o que você faz
-
----
-
-## Resumo (bem direto)
-
-HTML monta a estrutura, CSS deixa bonito, JavaScript faz funcionar, e TypeScript ajuda a não virar bagunça.
-
-👉 Juntando tudo isso, você tem a base de praticamente qualquer site moderno.
